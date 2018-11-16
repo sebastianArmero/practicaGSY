@@ -1,0 +1,58 @@
+body{
+      background-color: rgba(232, 224, 255, 0.87);
+      margin: 0;
+    }
+.Title{
+    color: rgb(80, 50, 50);
+    text-align:center;
+    font-family: inherit;
+    margin-top: -40px;
+}
+.Form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.44);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 4em;
+    border-radius: 7px;
+}
+.Cform{
+    text-align: center;
+}
+.Caja{
+    border-radius: 10px;
+    height: 25px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.respuesta{
+    color: red;
+    font-size: 3em;
+
+}
+.Btn{
+    height: 40px;
+    background: rgb(211, 211, 211);
+    border-radius: 1em;
+    border-color: rgb(255, 0, 0);
+}
+
+.Icono{
+    height: 9em;
+}
+
+@media only screen and (max-width: 320px) {
+    .Icono{
+        padding-left: 3em;
+        height: 9em;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .Icono{
+        padding-left: 6em;
+        height: 9em;
+    }
+}

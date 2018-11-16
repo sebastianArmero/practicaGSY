@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Practica Pollos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="css/stilos.css">
+<link rel="icon" href="img/GSY4.ico"
+  </head>
+  <body>
+    <!-- <div class="Principal">
+
+      <h1 class="Title">CALCULAR PRECIO DE POLLOS</h1>
+
+    <div class="Form"> -->
+        <!-- <form class="Cform" id="miformulario" method="post">
+          <label> Peso Pollo:</label> <br>
+          <input class="Caja" type="number" id="n1"> -->
+                <!-- <label> respuesta</label>
+                <input type="number" id="res"> -->
+        <!-- <p> El precio del pollo es:  <br> <span class="respuesta" id="res"></span> </p>
+
+          <input type="button" class="Btn" value="Calcular" onclick="calcular()">
+          <button onclick="Limpiar();" class="Btn">Limpiar campo</button>
+
+          </form> -->
+        <script type="text/javascript" src="js/funciones.js"></script>
+
+    <!-- </div>
+  </div> -->
+
+
+
+
+  <div class="container">
+    <div class="text-center">
+      <img src="img/GSY4.ico" class="rounded Icono">
+
+    </div>
+      <h1 class="Title">CALCULAR PRECIO DE POLLOS EN KILOGRAMOS</h1>
+    <div class="Form">
+      <form class="Cform" action="index.html" method="post" id="miformulario">
+        <label>PESO EN  KILOGRAMOS</label> <br>
+        <input class="Caja" type="number" id="n2" onkeyup= "calcularL()">
+        <!-- PRESIONAR TECLAS
+        El evento KeyDown se activa cuando el usuario presiona una tecla.
+        El evento KeyUp se activa cuando el usuario libera una clave.
+        El evento KeyPress se activa cuando el usuario presiona y suelta una tecla. (onKeyDown seguido de onKeyUp) -->
+        <p> el peso en libra es: <br> <span class="respuesta" id="res2"></span> <label class="respuesta">LB</label></p>
+        <p> el precio total es: <br> <label class="respuesta">$</label> <span class="respuesta" id="res3"></span> </p>
+
+
+
+
+
+        <input type="button" class="Btn" value="calcular" onclick="calcularL()">
+        <!-- <button onclick="Limpiar();" class="Btn">Limpiar campo</button> -->
+      </form>
+      <a href="PracticaII.html"> CALCLO INVERSO</a>
+    </div>
+  </div>
+    </body>
+</html>
